@@ -1,0 +1,465 @@
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 93%;
+    }
+}
+
+body {
+    background-color: #f5f5f5f5;
+}
+
+
+/* 头图 */
+
+.mubu {
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.hbg {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 30, 30, .25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -67px;
+}
+
+.bgt {
+    font-size: 45px;
+}
+
+.ht {
+    margin-top: -100px;
+}
+.ht a {
+   color: #fff;
+}
+
+
+/* 头 */
+
+#h {
+    margin-top: -80px;
+}
+
+
+/* 距离 */
+
+#c.main {
+    margin-top: 20px;
+}
+
+#hlist {
+    margin-bottom: 5em;
+}
+
+
+/* 分栏标题 */
+
+.flbt {
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.juyou {
+    float: right
+}
+
+#zt.main {
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+
+
+/* 卡片 */
+
+.ccontent {
+    margin-bottom: 8px;
+    height: 6.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shuju {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#cimg {
+    height: 250px;
+    width: 100%;
+    transition: 0.3s;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -23px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+#cimg:hover {
+    margin-left: -10px;
+}
+
+#img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.post-card {
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.title {
+    font-size: 20px;
+    display: block;
+    overflow: hidden;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: .87;
+    margin-bottom: 8px;
+}
+
+.coo {
+    padding:1em;
+    color: #555555;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* 专题 */
+
+.gdth {
+    width: 100%;
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+
+.henxianglist {
+    display: inline-flex;
+    text-align: left;
+}
+
+.tcgd {
+    margin-top: 100px;
+}
+
+.zt-card {
+    text-align: center;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 266px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+#zt-img {
+    height: 260px;
+    width: 88%;
+    transition: 0.3s;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: -100px;
+    background-color: #fff;
+}
+
+#zt-img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-top: -95px;
+}
+
+.zt-title {
+    font-size: 20px;
+    line-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tuijian {
+    height: 400px;
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 30px;
+}
+
+.fcard {
+    box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background: #fff;
+}
+
+#foot {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* 自适应 */
+
+
+/* 头图 */
+
+@media screen and (max-width: 959px) {
+    .mubu {
+        height: 400px;
+    }
+    .hbg {
+        margin-top: -10px;
+    }
+}
+
+
+/* 头标题 */
+
+@media screen and (max-width: 959px) {
+    #post.bgt {
+        font-size: 20px;
+    }
+}
+
+
+/* 专题 */
+
+@media screen and (max-width: 959px) {
+    .zt-card {
+        text-align: center;
+        box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        height: 160px;
+        background: #fff;
+        border-radius: 10px;
+        margin-bottom: 2em;
+    }
+    #zt-img {
+        height: 200px;
+        width: 80%;
+        transition: 0.3s;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+        margin-top: -88px;
+        background-color: #fff;
+    }
+    .zt-title {
+        font-size: 18px;
+        overflow: hidden;
+        line-height: 50px;
+    }
+    .tuijian {
+        height: 280px;
+    }
+}
+
+
+/* 文章列表 */
+
+@media screen and (max-width:959px) {
+    #cimg {
+        display: none;
+    }
+    #hlist {
+        margin-bottom: 2em;
+    }
+    #zt.main {
+        text-align: center;
+        line-height: 80px;
+        margin-bottom: 0px;
+    }
+    #yincang {
+        display: none;
+    }
+    #wzzishiying {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+
+/* 搜索 */
+
+.tag-card:hover {
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.tag-card a {
+    display: inline-block;
+}
+
+
+/* post */
+
+.post-card img {
+    border-radius: 1em;
+}
+
+#zuozhe {
+    text-align: center;
+}
+
+#zuozhe img {
+    border-radius: 50%;
+    background: #fff;
+}
+
+.zuozhe-touxiang {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 5px solid rgb(207, 201, 201);
+}
+
+.zuozhe-touxiang:hover {
+    animation: rotate 1s infinite;
+}
+
+#postx {
+    padding: 0 0.5em;
+}
+
+#poslist {
+    margin-bottom: 3em;
+}
+
+.post-card pre,
+code {
+    max-height: 500px;
+}
+
+
+/* 按钮 */
+
+.btn {
+    border-radius: 3em;
+}
+
+.juzhong {
+    text-align: center;
+}
+
+
+/* 评论 */
+
+.commentnext li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.commentnext li.current a {
+    color: black!important;
+}
+
+#comments li {
+    list-style: none;
+}
+
+#comments {
+    margin-bottom: 20px;
+}
+
+#commentauthor img {
+    background: #fff;
+    border-radius: 50%;
+}
+
+.commentimg {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 5px solid rgb(207, 201, 201)
+}
+
+.commentcont {
+    margin-left: 66px;
+    margin-top: -43px;
+}
+
+.biaoshi {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* 评论页面 */
+
+.liks-card {
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4%;
+    text-align: center;
+}
+
+.liks-card img {
+    background: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: -25;
+    border: 5px solid rgb(207, 201, 201)
+}
+
+.liks-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#liks-list {
+    margin-bottom: 20px;
+    padding: 0 1em;
+}
