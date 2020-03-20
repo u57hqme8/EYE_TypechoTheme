@@ -51,7 +51,7 @@
 						</ul>
 						<ul class="nav nav-pill pull-right">
 
-<li><a href="https://www.mmcee.cn/soso.html">搜索</a></li>
+<li><a href="/soso.html">搜索</a></li>
 							<li class="dropdown">
 								<a href="javascript:void(0);">更多 <b class="caret"></b></a>
 								<ul class="subnav">
