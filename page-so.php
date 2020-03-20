@@ -47,14 +47,8 @@ $this->need('header.php');
                             <form class="ks-form" method="post" action="<?php $this->options->siteUrl(); ?>" role="search">
                                 <select class="mdui-select" name="cat">
                                     <option value="0" selected>全部</option>
-                                    <option value="33">Bukkit</option>
-                                    <option value="34">sponge</option>
-                                    <option value="63">服务端</option>
-                                    <option value="61">开服教程</option>
-                                    <option value="34">编程</option>
-                                    <option value="38">专题</option>
-                                    <option value="2">博客</option>
-                                    <option value="36">其它</option>
+                                    <option value="这里是分类MID">这里请到后台修改</option>
+									<option value="这里是分类MID">这里请到后台修改</option>
                                 </select>
                                 <input style="width: 60%;"  type="text" name="ss" placeholder="输入关键字以回车开始搜索">
                             </form>
