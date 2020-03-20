@@ -3,7 +3,6 @@
             <div class="main">
                 <div class="row ">
                     <div class="col-l-12" id="foot">
-<p><a href="/copyright.html" >版权说明</a> | <a href="/links.html">友情链接</a> | <a href="/msg.html">留言本</a> | <a href="/py.html">站点费用</a> | <a href="/about.html">关于</a></p>
 
                         <p>© <?php echo date("Y"); ?> <a href="/"> <?php $this->options->title(); ?></a> All rights reserved.</p>
                     <?php if ($this->options->filing) { ?><p><a href="http://www.beian.miit.gov.cn"
@@ -12,7 +11,7 @@
                         <?php if ($this->options->gafiling) { ?><p><img
                             src="<?php echo $this->options->lodingimg; ?>" ks-original="<?php Helper::options()->themeUrl(); ?>/img/gaba.png" /><?php echo $this->options->gafiling; ?></p>
                         <?php } ?>
-                        <p> Powered by <a href="http://typecho.org">Typecho</a> 头图提供 vecter</p>
+                        <p> Powered by <a href="http://typecho.org" target="_blank">Typecho</a> Theme <a href="https://www.mmcee.cn/244.html" target="_blank">EYE</a></p>
                         <?php if ($this->options->upyuncdn=='true') { ?>
                          <p><a href="https://www.upyun.com/" target="_blank"><img
                             src="<?php echo $this->options->lodingimg; ?>" ks-original="<?php Helper::options()->themeUrl(); ?>/img/upyun.png" alt="upyun" height=28 /></a></p>

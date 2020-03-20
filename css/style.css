@@ -183,11 +183,9 @@ body {
 
 .zt-card {
     text-align: center;
-    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 100%;
     height: 266px;
-    background: #fff;
     border-radius: 10px;
     margin-bottom: 2em;
 }
@@ -211,14 +209,14 @@ body {
 
 .zt-title {
     font-size: 20px;
-    line-height: 100px;
+    line-height: 82px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 .tuijian {
-    height: 400px;
+    height: 355px;
 }
 
 
@@ -270,11 +268,9 @@ body {
 @media screen and (max-width: 959px) {
     .zt-card {
         text-align: center;
-        box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 100%;
         height: 160px;
-        background: #fff;
         border-radius: 10px;
         margin-bottom: 2em;
     }
